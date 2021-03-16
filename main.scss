@@ -1,0 +1,360 @@
+body {
+    header {
+       
+        col-lg-4 {
+            .logo {
+                width: 200px;
+                
+                img {
+                    width: 100%;
+                    margin-top: 50px;
+                }
+            }
+        }
+        .col-lg-8 {
+            .list-group {
+                flex-direction: row;
+                .list-group-item {
+                    border: none;
+                    font-weight: 600;
+                    padding: 40px;
+                    a {
+                        color: black;
+                        text-decoration: none;
+                    }
+                    a:hover {
+                        color: blue;
+                    }
+                }
+
+                .number {
+                    background-color: blue;
+                    color: white;
+                    height: 60px;
+                    margin-top: 20px;
+                    margin-left: 30px;
+                    padding: 20px;
+                    border-radius: 6px;
+                    background-image: linear-gradient(left, aqua, blue);
+
+                    a {
+                        color: white;
+                    }
+                    a:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .appointment {
+            background-image: url(h1_hero.webp);
+            .col-lg-6 {
+                padding-top: 250px;
+                padding-bottom: 250px;
+                span {
+                    color: blue;
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 60px;
+                }
+                .btn {
+                    padding: 15px;
+                    width: 200px;
+                    background-image: linear-gradient(left, aqua, blue);
+                }
+                .btn:hover {
+                    background-image: linear-gradient(left, blue, aqua);
+                    transition: 1s;
+                }
+            }
+        }
+        .About {
+            margin: 200px;
+            span {
+                color: blue;
+                font-size: 20px;
+            }
+            span::before{
+                width: 10px;
+                color: blue;
+                height: 10px;
+            }
+            .welcome {
+                font-size: 55px;
+                font-weight: 650;
+            }
+            p {
+                width: 500px;
+                color: gray;
+            }
+            .btn {
+                padding: 15px;
+                width: 200px;
+                margin: 20px;
+                text-align: left;
+                background-image: linear-gradient(left, aqua, blue);
+            }
+            .btn:hover {
+                background-image: linear-gradient(left, blue, aqua);
+                transition: 1s;
+            }
+            .btn-secondary {
+                margin-left: 30px;
+                background-image: linear-gradient(left, slategray, grey);
+                background-color: slategray;
+            }
+            .btn-secondary:hover {
+                background-image: linear-gradient(left, grey, slategray);
+            }
+        }
+        .department {
+            background-image: url(department.png);
+            span {
+                margin-top: 200px;
+                text-align: center;
+                color: blue;
+                font-size: 20px;
+            }
+            h1 {
+                text-align: center;
+                font-size: 55px;
+                font-weight: 650;
+            }
+            .nav-group {
+                .nav-box {
+                    flex-direction: row;
+                    width: 165px;
+                    height: 165px;
+                    background-color: white;
+                    margin: 20px;
+                    display: inline-block;
+                    padding: 20px;
+                    cursor: pointer;
+                    i {
+                        color: aqua;
+
+                        font-size: 100px;
+                    }
+                }
+                .active{
+                    background-color: black;
+                    color: white;
+                }
+            }
+            .col-lg-7 {
+                background-image: linear-gradient(left, aqua, blue);
+                color: white;
+                padding: 100px;
+                h4 {
+                    margin: 30px;
+                }
+                p {
+                    margin: 30px;
+                }
+                button {
+                    background-color: white;
+                    color: black;
+                    border: none;
+                    border-radius: 0%;
+                    font-weight: 100;
+                    width: 220px;
+                    height: 70px;
+                    margin: 30px;
+                }
+            }
+            .col-lg-5 {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .gallery {
+            span {
+                margin-top: 200px;
+                text-align: center;
+                color: blue;
+                font-size: 20px;
+            }
+            h1 {
+                text-align: center;
+                font-size: 55px;
+                font-weight: 650;
+            }
+            .big {
+                margin: 10px;
+                width: 100%;
+            }
+
+            .small {
+                margin: 10px;
+                width: 100%;
+            }
+        }
+        .idea {
+            margin-top: 300px;
+            color: white;
+            background-image: url(section_bg01.png);
+
+            .col-lg-6 {
+                padding-top: 300px;
+                padding-left: 100px;
+                .idea-text {
+                    width: 500px;
+                    text-align: center;
+                    margin-bottom: 50px;
+                    font-size: 22px;
+                }
+                .name {
+                    display: inline-block;
+                    font-size: 20px;
+                    margin-bottom: 200px;
+                }
+            }
+            .col-sm-6 {
+                background-image: url(startup.png);
+            }
+        }
+        .doctors {
+            span {
+                margin-top: 200px;
+                text-align: center;
+                color: blue;
+                font-size: 20px;
+            }
+            h1 {
+                text-align: center;
+                font-size: 55px;
+                font-weight: 650;
+            }
+            .col {
+                .icons {
+                    margin-left: 20px;
+                    i {
+                        flex-direction: row;
+                        width: 50px;
+                        font-size: 20px;
+                        color: grey;
+                        border: 3px grey;
+                    }
+                }
+                .card-body:hover {
+                    background-color: blue;
+                    color: white;
+                    transition: 0.5s;
+                    i {
+                        color: white;
+                    }
+                }
+            }
+        }
+        .form {
+            margin-top: 200px;
+            span {
+                color: blue;
+                font-size: 20px;
+            }
+            h1 {
+                font-weight: 700;
+                font-size: 60px;
+            }
+            .foto {
+                background-image: url(contact_form.png);
+            }
+            .form-control {
+                margin-top: 40px;
+                width: 200px;
+                border: none;
+                border-bottom: 1px solid gray;
+            }
+            .form-select {
+                margin-top: 40px;
+                width: 200px;
+                border: none;
+                border-bottom: 1px solid gray;
+            }
+            .form-floating {
+                margin-top: 40px;
+            }
+            .btn {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                padding: 15px;
+                width: 200px;
+                background-image: linear-gradient(left, aqua, blue);
+            }
+            .btn:hover {
+                background-image: linear-gradient(left, blue, aqua);
+                transition: 1s;
+            }
+        }
+        .news {
+            span {
+                margin-top: 200px;
+                color: blue;
+                font-size: 20px;
+                text-align: center;
+            }
+            h1 {
+                font-weight: 700;
+                font-size: 60px;
+                text-align: center;
+                margin-top: 40px;
+                margin-bottom: 100px;
+            }
+            .card {
+                margin: 40px;
+                border: none;
+                h5 {
+                    font-size: 30px;
+                }
+                p {
+                    a {
+                        font-size: 20px;
+                        color: gray;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .card:hover {
+                a {
+                    color: blue;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+    footer{
+        background-color: black;
+        img{
+            margin-top: 100px;
+        }
+        h4{
+            color: white;
+            margin-top: 100px;
+        }
+        p{
+            color: grey;
+            margin-top: 50px;
+            width: 280px;
+            font-size: 20px;
+        }
+        h2{
+            color: white;
+            margin-top: 100px;
+        }
+        .email{
+            margin-top: 0px ;
+        }
+        .footer{
+            background-color: darkblue;
+            border: none;
+            border-radius: 0%;
+        }
+    }
+    
+}

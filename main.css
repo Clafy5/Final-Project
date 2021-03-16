@@ -1,0 +1,421 @@
+body header col-lg-4 .logo {
+  width: 200px;
+}
+
+body header col-lg-4 .logo img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+body header .col-lg-8 .list-group {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body header .col-lg-8 .list-group .list-group-item {
+  border: none;
+  font-weight: 600;
+  padding: 40px;
+}
+
+body header .col-lg-8 .list-group .list-group-item a {
+  color: black;
+  text-decoration: none;
+}
+
+body header .col-lg-8 .list-group .list-group-item a:hover {
+  color: blue;
+}
+
+body header .col-lg-8 .list-group .number {
+  background-color: blue;
+  color: white;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 20px;
+  border-radius: 6px;
+  background-image: -webkit-gradient(linear, left top, right top, from(aqua), to(blue));
+  background-image: linear-gradient(left, aqua, blue);
+}
+
+body header .col-lg-8 .list-group .number a {
+  color: white;
+}
+
+body header .col-lg-8 .list-group .number a:hover {
+  color: white;
+}
+
+body main .appointment {
+  background-image: url(h1_hero.webp);
+}
+
+body main .appointment .col-lg-6 {
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+body main .appointment .col-lg-6 span {
+  color: blue;
+  font-size: 20px;
+}
+
+body main .appointment .col-lg-6 h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+body main .appointment .col-lg-6 .btn {
+  padding: 15px;
+  width: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(aqua), to(blue));
+  background-image: linear-gradient(left, aqua, blue);
+}
+
+body main .appointment .col-lg-6 .btn:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(blue), to(aqua));
+  background-image: linear-gradient(left, blue, aqua);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body main .About {
+  margin: 200px;
+}
+
+body main .About span {
+  color: blue;
+  font-size: 20px;
+}
+
+body main .About span::before {
+  width: 10px;
+  color: blue;
+  height: 10px;
+}
+
+body main .About .welcome {
+  font-size: 55px;
+  font-weight: 650;
+}
+
+body main .About p {
+  width: 500px;
+  color: gray;
+}
+
+body main .About .btn {
+  padding: 15px;
+  width: 200px;
+  margin: 20px;
+  text-align: left;
+  background-image: -webkit-gradient(linear, left top, right top, from(aqua), to(blue));
+  background-image: linear-gradient(left, aqua, blue);
+}
+
+body main .About .btn:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(blue), to(aqua));
+  background-image: linear-gradient(left, blue, aqua);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body main .About .btn-secondary {
+  margin-left: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(slategray), to(grey));
+  background-image: linear-gradient(left, slategray, grey);
+  background-color: slategray;
+}
+
+body main .About .btn-secondary:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(grey), to(slategray));
+  background-image: linear-gradient(left, grey, slategray);
+}
+
+body main .department {
+  background-image: url(department.png);
+}
+
+body main .department span {
+  margin-top: 200px;
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+}
+
+body main .department h1 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 650;
+}
+
+body main .department .nav-group .nav-box {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 165px;
+  height: 165px;
+  background-color: white;
+  margin: 20px;
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+}
+
+body main .department .nav-group .nav-box i {
+  color: aqua;
+  font-size: 100px;
+}
+
+body main .department .nav-group .active {
+  background-color: black;
+  color: white;
+}
+
+body main .department .col-lg-7 {
+  background-image: -webkit-gradient(linear, left top, right top, from(aqua), to(blue));
+  background-image: linear-gradient(left, aqua, blue);
+  color: white;
+  padding: 100px;
+}
+
+body main .department .col-lg-7 h4 {
+  margin: 30px;
+}
+
+body main .department .col-lg-7 p {
+  margin: 30px;
+}
+
+body main .department .col-lg-7 button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 0%;
+  font-weight: 100;
+  width: 220px;
+  height: 70px;
+  margin: 30px;
+}
+
+body main .department .col-lg-5 img {
+  width: 100%;
+}
+
+body main .gallery span {
+  margin-top: 200px;
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+}
+
+body main .gallery h1 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 650;
+}
+
+body main .gallery .big {
+  margin: 10px;
+  width: 100%;
+}
+
+body main .gallery .small {
+  margin: 10px;
+  width: 100%;
+}
+
+body main .idea {
+  margin-top: 300px;
+  color: white;
+  background-image: url(section_bg01.png);
+}
+
+body main .idea .col-lg-6 {
+  padding-top: 300px;
+  padding-left: 100px;
+}
+
+body main .idea .col-lg-6 .idea-text {
+  width: 500px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+body main .idea .col-lg-6 .name {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+
+body main .idea .col-sm-6 {
+  background-image: url(startup.png);
+}
+
+body main .doctors span {
+  margin-top: 200px;
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+}
+
+body main .doctors h1 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 650;
+}
+
+body main .doctors .col .icons {
+  margin-left: 20px;
+}
+
+body main .doctors .col .icons i {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50px;
+  font-size: 20px;
+  color: grey;
+  border: 3px grey;
+}
+
+body main .doctors .col .card-body:hover {
+  background-color: blue;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main .doctors .col .card-body:hover i {
+  color: white;
+}
+
+body main .form {
+  margin-top: 200px;
+}
+
+body main .form span {
+  color: blue;
+  font-size: 20px;
+}
+
+body main .form h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+body main .form .foto {
+  background-image: url(contact_form.png);
+}
+
+body main .form .form-control {
+  margin-top: 40px;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+body main .form .form-select {
+  margin-top: 40px;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+body main .form .form-floating {
+  margin-top: 40px;
+}
+
+body main .form .btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  width: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(aqua), to(blue));
+  background-image: linear-gradient(left, aqua, blue);
+}
+
+body main .form .btn:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(blue), to(aqua));
+  background-image: linear-gradient(left, blue, aqua);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body main .news span {
+  margin-top: 200px;
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+
+body main .news h1 {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+body main .news .card {
+  margin: 40px;
+  border: none;
+}
+
+body main .news .card h5 {
+  font-size: 30px;
+}
+
+body main .news .card p a {
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+}
+
+body main .news .card:hover a {
+  color: blue;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body footer {
+  background-color: black;
+}
+
+body footer img {
+  margin-top: 100px;
+}
+
+body footer h4 {
+  color: white;
+  margin-top: 100px;
+}
+
+body footer p {
+  color: grey;
+  margin-top: 50px;
+  width: 280px;
+  font-size: 20px;
+}
+
+body footer h2 {
+  color: white;
+  margin-top: 100px;
+}
+
+body footer .email {
+  margin-top: 0px;
+}
+
+body footer .footer {
+  background-color: darkblue;
+  border: none;
+  border-radius: 0%;
+}
+/*# sourceMappingURL=main.css.map */
